@@ -27,7 +27,7 @@ async def on_ready():
 @client.event
 async def on_member_join(member):
 	channel = client.get_channel(840211266869919784)
-	await channel.send(f"Welcome to JC's League, <@{member.id}>. Enjoy!")
+	await channel.send(f"Welcome to JC's League, <@{member.id}>. Please head over to #i-am-not-a-robot . Enjoy!")
 
 @client.event
 async def on_member_remove(member):
